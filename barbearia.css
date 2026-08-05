@@ -1,0 +1,37 @@
+.font-sombra, .font-sombra a {text-shadow: 1px 1px 2px rgba(0,0,0,.6)}
+#icon-beer {height: 77px;}
+#whatsapp {width: 3rem; height: 3rem; position: fixed; bottom: 1em; right: 1em; background: green; border-radius: 100%; z-index: 100000; background-image: url(images/vito-andolini/whatsapp.png); background-size:60%; background-repeat: no-repeat; background-position: center; cursor: pointer;display: block;}
+#whatsapp a {width: 3rem; height: 3rem;display: block}
+.old-font {font-family: 'Old Standard TT', serif; letter-spacing: -.5rem;}
+.banner.full.parallax-section {background-position-x: right !important}
+#contato-rodape {position: fixed; display: flex; bottom: 0; flex-direction: row; z-index: 9999; justify-content: end; align-items: center; background: #080808 !important; width: 100vw; padding: 0 30px 5px;}
+#contato-rodape article {text-align: right; margin-right: 20px;}
+#contato-rodape article h1 {font-size: 2rem; margin-top: 10px; font-weight: bold; color: #FFF}
+#contato-rodape article h3 {color: #FFF}
+#botaoapp {display: flex; flex-direction: column;}
+#botaoapp h4{ font-size: 0.8rem; color: white;}
+#botaoapp img { width: 90px;}
+#botaoapp {display: flex; align-items: flex-end;}
+footer{margin-bottom: 123px; padding-bottom: 123px;}
+
+/* Small only */
+@media (min-width: 0px) and (max-width: 768px){
+    .hide-mobile {display: none;}
+    .old-font {letter-spacing: -.2rem;}
+    #contato-rodape{justify-content: end;}
+    #contato-rodape article {margin: 0 20px 8px;}
+    #contato-rodape article h1 {font-size: 1.26rem; margin-top: 0;} 
+    #contato-rodape article h3 {font-size: .8rem;}
+    #botaoapp img {width: 70px;}
+}
+
+/* Medium only */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hide-mobile {display: none;}
+    .old-font {letter-spacing: -.2rem;}
+}
+
+/* Large and up */
+@media (min-width: 1025px) {
+    .hide-desktop {display: none;}
+}

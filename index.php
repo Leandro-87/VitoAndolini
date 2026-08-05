@@ -233,7 +233,7 @@
               <div class="voffset40"></div>
               <h4 class="titlefeat">Cabelo</h4>
               <div class="voffset30"></div>
-                <p class="textfeat">Corte de cabelo profissional<br><b>R$48,00</b></p>
+                <p class="textfeat">Corte de cabelo profissional<br><b>R$55,00</b></p>
             </div>
           </div>
           <div class="col-sm-4">
@@ -244,7 +244,7 @@
               <div class="voffset40"></div>
               <h4 class="titlefeat">Barba</h4>
               <div class="voffset30"></div>
-                <p class="textfeat">Barboterapia<br><b>R$48,00</b></p>
+                <p class="textfeat">Barboterapia<br><b>R$55,00</b></p>
             </div>
           </div>
           <div class="col-sm-4">
@@ -256,7 +256,7 @@
               <div class="voffset40"></div>
               <h4 class="titlefeat">Cabelo e Barba</h4>
               <div class="voffset30"></div>
-                <p class="textfeat">Serviço completo. Para ficar na estica <b>R$80,00</b></p>
+                <p class="textfeat">Serviço completo. Para ficar na estica <b>R$89,00</b></p>
             </div>
           </div>
         </div>

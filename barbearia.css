@@ -1,0 +1,29 @@
+.font-sombra, .font-sombra a {text-shadow: 1px 1px 2px rgba(0,0,0,.6)}
+#icon-beer {height: 77px;}
+#whatsapp {width: 3rem; height: 3rem; position: fixed; bottom: 1em; right: 1em; background: green; border-radius: 100%; z-index: 100000; background-image: url(images/vito-andolini/whatsapp.png); background-size:60%; background-repeat: no-repeat; background-position: center; cursor: pointer;display: block;}
+#whatsapp a {width: 3rem; height: 3rem;display: block}
+.old-font {font-family: 'Old Standard TT', serif; letter-spacing: -.5rem;}
+.banner.full.parallax-section {background-position-x: right !important}
+#contato-rodape {position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex;justify-content: center; align-items: center;}
+#contato-rodape article {text-align: right; margin-right: 10px;}
+#contato-rodape article h1 {font-size: 2rem; margin-top: 10px; font-weight: bold; text-shadow: #999 1px 1px 1px; color: #222}
+#contato-rodape article h3 {text-shadow: #999 1px 1px 1px; color: #222}
+#botaoapp small {font-size: .8rem; color: #222; text-shadow: #999 1px 1px 1px;}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .hide-mobile {display: none;}
+    .old-font {letter-spacing: -.2rem;}
+
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .hide-mobile {display: none;}
+    .old-font {letter-spacing: -.2rem;}
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+    .hide-desktop {display: none; }
+}
